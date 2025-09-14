@@ -28,6 +28,7 @@ import Signup from './pages/Signup';
 import CompleteProfile from './pages/CompleteProfile';
 import Login from './pages/Login';
 import AuthPage from './components/auth/AuthPage';
+import ModernAuth from './pages/ModernAuth';
 
 const AuthenticatedApp: React.FC = () => {
   const { user, isLoading } = useAuth();
@@ -85,6 +86,7 @@ const AuthenticatedApp: React.FC = () => {
           <Route path="/create-password" element={<CreatePassword />} />
           <Route path="/complete-profile" element={<CompleteProfile />} />
           <Route path="/auth" element={<AuthPage />} />
+          <Route path="/modern-auth" element={<ModernAuth />} />
           <Route path="/*" element={<PublicLanding />} />
         </Routes>
       </BrowserRouter>

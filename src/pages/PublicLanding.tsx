@@ -877,14 +877,15 @@ const PublicLanding: React.FC = () => {
                 href="/auth"
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
               >
-                Try New Auth Experience
+                Try Auth Experience
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
               <a
-                href="/signup"
+                href="/modern-auth"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-600 transition-all duration-200"
               >
-                Start Free Today
+                Modern Auth UI
+                <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </div>
           </motion.div>
